@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 6
 Title ""
-Date "24 jul 2014"
+Date "25 jul 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -69,10 +69,6 @@ F 3 "~" H 6100 5100 60  0000 C CNN
 	1    6100 5100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5350 5150 6100 5150
-Wire Wire Line
-	6100 5150 6100 5100
 $Comp
 L +1.25V #PWR?
 U 1 1 53CC7523
@@ -84,8 +80,454 @@ F 3 "~" H 1450 2300 60  0000 C CNN
 	1    1450 2300
 	1    0    0    -1  
 $EndComp
+$Comp
+L IS43R86400D-6TL U?
+U 1 1 53D1BAA5
+P 8450 3250
+F 0 "U?" H 8450 3150 60  0000 C CNN
+F 1 "IS43R86400D-6TL" H 8450 3350 60  0000 C CNN
+F 2 "" V 8850 4600 60  0000 C CNN
+F 3 "" V 8850 4600 60  0000 C CNN
+	1    8450 3250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 53D1BABF
+P 9800 1800
+F 0 "#PWR?" H 9800 1800 30  0001 C CNN
+F 1 "GND" H 9800 1730 30  0001 C CNN
+F 2 "" H 9800 1800 60  0000 C CNN
+F 3 "" H 9800 1800 60  0000 C CNN
+	1    9800 1800
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 9250 4700
+NoConn ~ 9150 4700
+NoConn ~ 9050 4700
+NoConn ~ 8950 4700
+NoConn ~ 8850 4700
+NoConn ~ 8750 4700
+NoConn ~ 8650 4700
+NoConn ~ 8550 4700
+NoConn ~ 8450 4700
+NoConn ~ 8350 4700
+NoConn ~ 8250 4700
+NoConn ~ 8150 4700
+NoConn ~ 8050 4700
+NoConn ~ 7950 4700
+NoConn ~ 7850 4700
+NoConn ~ 7750 4700
+NoConn ~ 7650 4700
+$Comp
+L R R?
+U 1 1 53D1C003
+P 8750 800
+F 0 "R?" V 8830 800 40  0000 C CNN
+F 1 "1K 1%" V 8757 801 40  0000 C CNN
+F 2 "~" V 8680 800 30  0000 C CNN
+F 3 "~" H 8750 800 30  0000 C CNN
+	1    8750 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 53D1C010
+P 8750 1450
+F 0 "R?" V 8830 1450 40  0000 C CNN
+F 1 "1K 1%" V 8757 1451 40  0000 C CNN
+F 2 "~" V 8680 1450 30  0000 C CNN
+F 3 "~" H 8750 1450 30  0000 C CNN
+	1    8750 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 53D1C0D7
+P 9050 1450
+F 0 "C?" H 9050 1550 40  0000 L CNN
+F 1 ".1u" H 9056 1365 40  0000 L CNN
+F 2 "~" H 9088 1300 30  0000 C CNN
+F 3 "~" H 9050 1450 60  0000 C CNN
+	1    9050 1450
+	1    0    0    -1  
+$EndComp
+Connection ~ 8750 1700
+Wire Wire Line
+	8650 1700 8650 1800
+Connection ~ 8850 1700
+Wire Wire Line
+	8750 1700 8750 1800
+Connection ~ 8950 1700
+Wire Wire Line
+	8850 1700 8850 1800
+Connection ~ 9050 1700
+Wire Wire Line
+	8950 1700 8950 1800
+Connection ~ 9250 1700
+Wire Wire Line
+	9050 1650 9050 1800
+Connection ~ 9350 1700
+Wire Wire Line
+	9250 1700 9250 1800
+Connection ~ 9450 1700
+Wire Wire Line
+	9350 1700 9350 1800
+Wire Wire Line
+	9800 1700 9800 1800
+Wire Wire Line
+	9800 1700 8650 1700
+Wire Wire Line
+	9450 1800 9450 1700
+Wire Wire Line
+	1450 2350 1450 2300
 Wire Wire Line
 	1950 2350 1450 2350
 Wire Wire Line
-	1450 2350 1450 2300
+	6100 5150 6100 5100
+Wire Wire Line
+	5350 5150 6100 5150
+Wire Wire Line
+	9900 3200 10250 3200
+Wire Wire Line
+	9900 3100 10250 3100
+Wire Wire Line
+	9900 3000 10250 3000
+Wire Wire Line
+	9900 2900 10250 2900
+Wire Wire Line
+	9900 2800 10250 2800
+Wire Wire Line
+	9900 2700 10250 2700
+Wire Wire Line
+	9900 2600 10250 2600
+Wire Wire Line
+	9900 2500 10250 2500
+Wire Wire Line
+	8750 1050 8750 1200
+Connection ~ 8750 1100
+Wire Wire Line
+	9050 1000 9050 1250
+Wire Wire Line
+	7000 4050 5650 4050
+Wire Wire Line
+	5650 4050 5650 2350
+Wire Wire Line
+	5650 2350 5350 2350
+Wire Wire Line
+	7000 4150 5750 4150
+Wire Wire Line
+	5750 4150 5750 2450
+Wire Wire Line
+	5750 2450 5350 2450
+$Comp
+L R R?
+U 1 1 53D1C395
+P 6450 4500
+F 0 "R?" V 6530 4500 40  0000 C CNN
+F 1 "100" V 6457 4501 40  0000 C CNN
+F 2 "~" V 6380 4500 30  0000 C CNN
+F 3 "~" H 6450 4500 30  0000 C CNN
+	1    6450 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 4050 6450 4250
+Connection ~ 6450 4050
+Wire Wire Line
+	6600 4150 6600 4750
+Wire Wire Line
+	6600 4750 6450 4750
+Connection ~ 6600 4150
+Wire Wire Line
+	8450 1800 8450 1100
+Wire Wire Line
+	8450 1100 9050 1100
+$Comp
+L C C?
+U 1 1 53D2BC43
+P 6500 900
+F 0 "C?" H 6500 1000 40  0000 L CNN
+F 1 "4.7u" H 6506 815 40  0000 L CNN
+F 2 "~" H 6538 750 30  0000 C CNN
+F 3 "~" H 6500 900 60  0000 C CNN
+	1    6500 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 53D2BC49
+P 5500 900
+F 0 "C?" H 5500 1000 40  0000 L CNN
+F 1 ".47u" H 5506 815 40  0000 L CNN
+F 2 "~" H 5538 750 30  0000 C CNN
+F 3 "~" H 5500 900 60  0000 C CNN
+	1    5500 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 53D2BC4F
+P 6250 900
+F 0 "C?" H 6250 1000 40  0000 L CNN
+F 1 "4.7u" H 6256 815 40  0000 L CNN
+F 2 "~" H 6288 750 30  0000 C CNN
+F 3 "~" H 6250 900 60  0000 C CNN
+	1    6250 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 53D2BC55
+P 5750 900
+F 0 "C?" H 5750 1000 40  0000 L CNN
+F 1 "4.7u" H 5756 815 40  0000 L CNN
+F 2 "~" H 5788 750 30  0000 C CNN
+F 3 "~" H 5750 900 60  0000 C CNN
+	1    5750 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 53D2BC5B
+P 7250 900
+F 0 "C?" H 7250 1000 40  0000 L CNN
+F 1 "100u" H 7256 815 40  0000 L CNN
+F 2 "~" H 7288 750 30  0000 C CNN
+F 3 "~" H 7250 900 60  0000 C CNN
+	1    7250 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 53D2BC6C
+P 7000 1500
+F 0 "C?" H 7000 1600 40  0000 L CNN
+F 1 "4.7u" H 7006 1415 40  0000 L CNN
+F 2 "~" H 7038 1350 30  0000 C CNN
+F 3 "~" H 7000 1500 60  0000 C CNN
+	1    7000 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 53D2BC72
+P 6000 1500
+F 0 "C?" H 6000 1600 40  0000 L CNN
+F 1 ".47u" H 6006 1415 40  0000 L CNN
+F 2 "~" H 6038 1350 30  0000 C CNN
+F 3 "~" H 6000 1500 60  0000 C CNN
+	1    6000 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 53D2BC78
+P 6750 1500
+F 0 "C?" H 6750 1600 40  0000 L CNN
+F 1 "4.7u" H 6756 1415 40  0000 L CNN
+F 2 "~" H 6788 1350 30  0000 C CNN
+F 3 "~" H 6750 1500 60  0000 C CNN
+	1    6750 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 53D2BC7E
+P 6250 1500
+F 0 "C?" H 6250 1600 40  0000 L CNN
+F 1 "4.7u" H 6256 1415 40  0000 L CNN
+F 2 "~" H 6288 1350 30  0000 C CNN
+F 3 "~" H 6250 1500 60  0000 C CNN
+	1    6250 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 53D2BC84
+P 7250 1500
+F 0 "C?" H 7250 1600 40  0000 L CNN
+F 1 "100u" H 7256 1415 40  0000 L CNN
+F 2 "~" H 7288 1350 30  0000 C CNN
+F 3 "~" H 7250 1500 60  0000 C CNN
+	1    7250 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L +1.25V #PWR?
+U 1 1 53D2BD24
+P 5250 650
+F 0 "#PWR?" H 5250 600 20  0001 C CNN
+F 1 "+1.25V" H 5250 750 30  0000 C CNN
+F 2 "~" H 5250 650 60  0000 C CNN
+F 3 "~" H 5250 650 60  0000 C CNN
+	1    5250 650 
+	1    0    0    -1  
+$EndComp
+$Comp
+L +1.25V #PWR?
+U 1 1 53D2BD71
+P 5250 1250
+F 0 "#PWR?" H 5250 1200 20  0001 C CNN
+F 1 "+1.25V" H 5250 1350 30  0000 C CNN
+F 2 "~" H 5250 1250 60  0000 C CNN
+F 3 "~" H 5250 1250 60  0000 C CNN
+	1    5250 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 550  7850 1800
+Wire Wire Line
+	7850 550  9050 550 
+$Comp
+L C C?
+U 1 1 53D2BF2F
+P 9050 800
+F 0 "C?" H 9050 900 40  0000 L CNN
+F 1 ".1u" H 9056 715 40  0000 L CNN
+F 2 "~" H 9088 650 30  0000 C CNN
+F 3 "~" H 9050 800 60  0000 C CNN
+	1    9050 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 550  9050 600 
+Connection ~ 8750 550 
+Connection ~ 9050 1100
+$Comp
+L GND #PWR?
+U 1 1 53D2BFD1
+P 5100 1150
+F 0 "#PWR?" H 5100 1150 30  0001 C CNN
+F 1 "GND" H 5100 1080 30  0001 C CNN
+F 2 "" H 5100 1150 60  0000 C CNN
+F 3 "" H 5100 1150 60  0000 C CNN
+	1    5100 1150
+	-1   0    0    -1  
+$EndComp
+Connection ~ 7850 700 
+Wire Wire Line
+	7450 1300 7450 1800
+Wire Wire Line
+	7650 1800 7650 1700
+Wire Wire Line
+	7650 1700 7450 1700
+Connection ~ 7450 1700
+Wire Wire Line
+	7550 1800 7550 1700
+Connection ~ 7550 1700
+Wire Wire Line
+	8250 1800 8250 1700
+Wire Wire Line
+	8250 1700 7850 1700
+Connection ~ 7850 1700
+Wire Wire Line
+	8150 1800 8150 1700
+Connection ~ 8150 1700
+Wire Wire Line
+	8050 1800 8050 1700
+Connection ~ 8050 1700
+Wire Wire Line
+	7950 1800 7950 1700
+Connection ~ 7950 1700
+$Comp
+L C C?
+U 1 1 53D2C2C1
+P 7000 900
+F 0 "C?" H 7000 1000 40  0000 L CNN
+F 1 "4.7u" H 7006 815 40  0000 L CNN
+F 2 "~" H 7038 750 30  0000 C CNN
+F 3 "~" H 7000 900 60  0000 C CNN
+	1    7000 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 53D2C2C7
+P 6750 900
+F 0 "C?" H 6750 1000 40  0000 L CNN
+F 1 "4.7u" H 6756 815 40  0000 L CNN
+F 2 "~" H 6788 750 30  0000 C CNN
+F 3 "~" H 6750 900 60  0000 C CNN
+	1    6750 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 53D2C31E
+P 5650 1750
+F 0 "#PWR?" H 5650 1750 30  0001 C CNN
+F 1 "GND" H 5650 1680 30  0001 C CNN
+F 2 "" H 5650 1750 60  0000 C CNN
+F 3 "" H 5650 1750 60  0000 C CNN
+	1    5650 1750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 1300 5250 1300
+Wire Wire Line
+	5250 1300 5250 1250
+Connection ~ 6250 1300
+Connection ~ 6500 1300
+Connection ~ 6750 1300
+Connection ~ 7000 1300
+Connection ~ 7250 1300
+Wire Wire Line
+	5250 650  5250 700 
+Wire Wire Line
+	5250 700  7850 700 
+Connection ~ 7250 700 
+Connection ~ 7000 700 
+Connection ~ 6750 700 
+Connection ~ 6500 700 
+Connection ~ 6250 700 
+$Comp
+L C C?
+U 1 1 53D2C3B2
+P 6000 900
+F 0 "C?" H 6000 1000 40  0000 L CNN
+F 1 "4.7u" H 6006 815 40  0000 L CNN
+F 2 "~" H 6038 750 30  0000 C CNN
+F 3 "~" H 6000 900 60  0000 C CNN
+	1    6000 900 
+	1    0    0    -1  
+$EndComp
+Connection ~ 6000 700 
+Connection ~ 5750 700 
+Connection ~ 5500 700 
+Wire Wire Line
+	7250 1100 5100 1100
+Wire Wire Line
+	5100 1100 5100 1150
+Connection ~ 5500 1100
+Connection ~ 5750 1100
+Connection ~ 6000 1100
+Connection ~ 6250 1100
+Connection ~ 6500 1100
+Connection ~ 6750 1100
+Connection ~ 7000 1100
+Connection ~ 7250 1100
+Wire Wire Line
+	7250 1700 5650 1700
+Wire Wire Line
+	5650 1700 5650 1750
+Connection ~ 6250 1700
+Connection ~ 6500 1700
+Connection ~ 6750 1700
+Connection ~ 7000 1700
+Connection ~ 7250 1700
+$Comp
+L C C?
+U 1 1 53D2C476
+P 6500 1500
+F 0 "C?" H 6500 1600 40  0000 L CNN
+F 1 "4.7u" H 6506 1415 40  0000 L CNN
+F 2 "~" H 6538 1350 30  0000 C CNN
+F 3 "~" H 6500 1500 60  0000 C CNN
+	1    6500 1500
+	1    0    0    -1  
+$EndComp
+Connection ~ 6000 1300
+Connection ~ 6000 1700
+NoConn ~ 1950 2550
 $EndSCHEMATC
