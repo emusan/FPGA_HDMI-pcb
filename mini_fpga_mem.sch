@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 6
 Title ""
-Date "26 jul 2014"
+Date "28 jul 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1267,9 +1267,9 @@ Entry Wire Line
 	550  6400 650  6500
 Entry Wire Line
 	550  6300 650  6400
-Text Label 650  6400 0    60   ~ 0
-RAM_~CAS~
 Text Label 650  6500 0    60   ~ 0
+RAM_~CAS~
+Text Label 650  6400 0    60   ~ 0
 RAM_~RAS~
 Wire Wire Line
 	1450 6350 1450 6400
@@ -1407,4 +1407,5 @@ Wire Wire Line
 Wire Wire Line
 	2000 3950 2000 4050
 Connection ~ 2000 4050
+NoConn ~ 5500 6450
 $EndSCHEMATC

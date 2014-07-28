@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 6
 Title ""
-Date "26 jul 2014"
+Date "28 jul 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -185,7 +185,7 @@ F 3 "" H 6550 6400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5700 6500 5900 6500
+	5500 6500 5900 6500
 Wire Wire Line
 	6400 6500 6550 6500
 Wire Wire Line
@@ -554,4 +554,57 @@ Connection ~ 7000 2100
 Wire Wire Line
 	7000 2700 7000 2900
 Connection ~ 7000 2900
+NoConn ~ 4300 3900
+NoConn ~ 4300 4000
+NoConn ~ 4300 4500
+NoConn ~ 4300 4600
+NoConn ~ 4300 4900
+NoConn ~ 4300 5100
+NoConn ~ 4300 5200
+NoConn ~ 4300 5400
+NoConn ~ 4300 5500
+NoConn ~ 4300 5700
+NoConn ~ 4300 5800
+NoConn ~ 4300 6000
+NoConn ~ 4300 6100
+NoConn ~ 7100 5800
+NoConn ~ 7100 5700
+NoConn ~ 7100 5500
+NoConn ~ 7100 5400
+NoConn ~ 7100 4300
+NoConn ~ 7100 4200
+NoConn ~ 7100 4000
+NoConn ~ 7100 3900
+NoConn ~ 7100 3700
+NoConn ~ 7100 3600
+NoConn ~ 7100 3400
+$Comp
+L R R?
+U 1 1 53D58328
+P 5250 6500
+F 0 "R?" V 5330 6500 40  0000 C CNN
+F 1 "4.7K" V 5257 6501 40  0000 C CNN
+F 2 "~" V 5180 6500 30  0000 C CNN
+F 3 "~" H 5250 6500 30  0000 C CNN
+	1    5250 6500
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5700 6500
+$Comp
+L GND #PWR?
+U 1 1 53D5838F
+P 4900 6600
+F 0 "#PWR?" H 4900 6600 30  0001 C CNN
+F 1 "GND" H 4900 6530 30  0001 C CNN
+F 2 "" H 4900 6600 60  0000 C CNN
+F 3 "" H 4900 6600 60  0000 C CNN
+	1    4900 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 6500 4900 6500
+Wire Wire Line
+	4900 6500 4900 6600
+Text Notes 4700 6400 0    60   ~ 0
+Do not populate
 $EndSCHEMATC
