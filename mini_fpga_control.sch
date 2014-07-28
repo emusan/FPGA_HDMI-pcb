@@ -124,7 +124,7 @@ $EndComp
 Wire Wire Line
 	3350 4250 3200 4250
 Wire Wire Line
-	1200 4850 1100 4850
+	900  4850 1200 4850
 Wire Wire Line
 	1100 4850 1100 5000
 NoConn ~ 4300 3300
@@ -158,7 +158,7 @@ Wire Wire Line
 Wire Wire Line
 	600  4550 600  4650
 Wire Wire Line
-	3350 4150 3350 4450
+	3350 4150 3350 5050
 Wire Wire Line
 	3350 4450 3200 4450
 Connection ~ 3350 4250
@@ -607,4 +607,46 @@ Wire Wire Line
 	4900 6500 4900 6600
 Text Notes 4700 6400 0    60   ~ 0
 Do not populate
+$Comp
+L C C49
+U 1 1 53D6D42F
+P 3350 5250
+F 0 "C49" H 3350 5350 40  0000 L CNN
+F 1 "100n" H 3356 5165 40  0000 L CNN
+F 2 "~" H 3388 5100 30  0000 C CNN
+F 3 "~" H 3350 5250 60  0000 C CNN
+	1    3350 5250
+	1    0    0    -1  
+$EndComp
+Connection ~ 3350 4450
+Wire Wire Line
+	3350 5450 900  5450
+Wire Wire Line
+	900  5450 900  4850
+Connection ~ 1100 4850
+$Comp
+L C C50
+U 1 1 53D6D51C
+P 8200 4150
+F 0 "C50" H 8200 4250 40  0000 L CNN
+F 1 "100n" H 8206 4065 40  0000 L CNN
+F 2 "~" H 8238 4000 30  0000 C CNN
+F 3 "~" H 8200 4150 60  0000 C CNN
+	1    8200 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 3950 8650 3950
+Wire Wire Line
+	8650 3950 8650 4500
+Wire Wire Line
+	8650 4500 8750 4500
+Connection ~ 8750 4500
+Wire Wire Line
+	8200 4350 7950 4350
+Wire Wire Line
+	7950 4350 7950 5550
+Wire Wire Line
+	7950 5550 8750 5550
+Connection ~ 8750 5550
 $EndSCHEMATC
