@@ -1,19 +1,5 @@
-EESchema-LIBRARY Version 2.3  Date: 7/28/2014 12:43:37 AM
+EESchema-LIBRARY Version 2.3  Date: 7/28/2014 1:22:03 AM
 #encoding utf-8
-#
-# +1.25V
-#
-DEF +1.25V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -50 20 H I C CNN
-F1 "+1.25V" 0 100 30 H V C CNN
-F2 "~" 0 0 60 H V C CNN
-F3 "~" 0 0 60 H V C CNN
-DRAW
-X +1.25V 1 0 0 0 U 20 30 0 0 W N
-C 0 60 20 0 1 0 N
-P 3 0 1 0  0 0  0 40  0 40 N
-ENDDRAW
-ENDDEF
 #
 # +1.2V
 #
