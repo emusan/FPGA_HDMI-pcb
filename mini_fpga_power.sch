@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 6
 Title ""
-Date "2 aug 2014"
+Date "3 aug 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -162,7 +162,7 @@ L C C26
 U 1 1 53C9E314
 P 7200 4000
 F 0 "C26" H 7200 4100 40  0000 L CNN
-F 1 "4.7u" H 7206 3915 40  0000 L CNN
+F 1 "100u" H 7206 3915 40  0000 L CNN
 F 2 "~" H 7238 3850 30  0000 C CNN
 F 3 "~" H 7200 4000 60  0000 C CNN
 	1    7200 4000
