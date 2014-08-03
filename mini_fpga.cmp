@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = 8/2/2014 1:45:36 AM
+Cmp-Mod V01 Created by PcbNew date = 8/3/2014 12:39:20 AM
 
 BeginCmp
 TimeStamp = /53CA826C/53D06F54;
@@ -179,7 +179,7 @@ BeginCmp
 TimeStamp = /53CA826C/53C9E314;
 Reference = C26;
 ValeurCmp = 4.7u;
-IdModule  = 0805_custom;
+IdModule  = 1210_murata;
 EndCmp
 
 BeginCmp
