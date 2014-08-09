@@ -1,6 +1,6 @@
-update=8/1/2014 9:56:40 PM
+update=8/4/2014 12:43:32 AM
 version=1
-last_client=cvpcb
+last_client=pcbnew
 [general]
 version=1
 [eeschema]
@@ -45,14 +45,19 @@ LibName30=valves
 LibName31=C:/Users/Tom/Downloads/kicadlib/numato_kicad_lib
 LibName32=xc6slx9
 LibName33=mini_fpga
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=
 UseCmpFile=1
 PadDrill=0.000000000000
 PadDrillOvalY=0.000000000000
-PadSizeH=0.450000000000
-PadSizeV=0.500000000000
+PadSizeH=0.800000000000
+PadSizeV=0.360000000000
 PcbTextSizeV=1.500000000000
 PcbTextSizeH=1.500000000000
 PcbTextThickness=0.300000000000
@@ -63,8 +68,9 @@ SolderMaskClearance=0.000000000000
 SolderMaskMinWidth=0.000000000000
 DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
-ModuleOutlineThickness=0.150000000000
+ModuleOutlineThickness=0.100000000000
 [pcbnew/libraries]
+LibDir=lib/mini_fpga_mod.pretty;C:/Users/Tom/Downloads/kicadlib
 LibName1=lib/mini_fpga_mod.pretty/mini_fpga
 LibName2=sockets
 LibName3=connect
@@ -83,9 +89,3 @@ LibName15=dip_sockets
 LibName16=pga_sockets
 LibName17=valves
 LibName18=numato_kicad_lib
-LibDir=lib/mini_fpga_mod.pretty;C:/Users/Tom/Downloads/kicadlib
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms

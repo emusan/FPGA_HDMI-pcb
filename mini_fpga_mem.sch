@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 6
 Title ""
-Date "3 aug 2014"
+Date "5 aug 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1408,4 +1408,66 @@ Wire Wire Line
 	7850 550  7850 1800
 Wire Wire Line
 	8150 1800 8150 1700
+Text Label 1950 4550 0    60   ~ 0
+RAM_DQ0_FPGA
+Text Label 1950 4650 0    60   ~ 0
+RAM_DQ1_FPGA
+Text Label 1950 4850 0    60   ~ 0
+RAM_DQ2_FPGA
+Text Label 1950 4950 0    60   ~ 0
+RAM_DQ3_FPGA
+Text Label 1950 5150 0    60   ~ 0
+RAM_DQS_FPGA
+Text Label 1950 5450 0    60   ~ 0
+RAM_DQ6_FPGA
+Text Label 1950 5550 0    60   ~ 0
+RAM_DQ7_FPGA
+Text Label 2000 5750 0    60   ~ 0
+RAM_DQ4_FPGA
+Text Label 2000 5850 0    60   ~ 0
+RAM_DQ5_FPGA
+Text Label 1950 6150 0    60   ~ 0
+RAM_DM_FPGA
+Text Label 2000 6350 0    60   ~ 0
+RAM_RAS_FPGA
+Text Label 2000 6450 0    60   ~ 0
+RAM_CAS_FPGA
+Text Label 2000 6650 0    60   ~ 0
+RAM_A5_FPGA
+Text Label 2000 6750 0    60   ~ 0
+RAM_A6_FPGA
+Text Label 2000 6950 0    60   ~ 0
+RAM_A3_FPGA
+Text Label 5700 4050 0    60   ~ 0
+RAM_CLK
+Text Label 5700 4250 0    60   ~ 0
+RAM_CLKN
+Text Label 5550 4350 0    60   ~ 0
+RAM_A0_FPGA
+Text Label 5550 4450 0    60   ~ 0
+RAM_A1_FPGA
+Text Label 5550 4650 0    60   ~ 0
+RAM_BA0_FPGA
+Text Label 5550 4750 0    60   ~ 0
+RAM_BA1_FPGA
+Text Label 5550 4950 0    60   ~ 0
+RAM_A7_FPGA
+Text Label 5550 5050 0    60   ~ 0
+RAM_A2_FPGA
+Text Label 5550 5250 0    60   ~ 0
+RAM_WE_FPGA
+Text Label 5550 5550 0    60   ~ 0
+RAM_A10_FPGA
+Text Label 5550 5650 0    60   ~ 0
+RAM_A4_FPGA
+Text Label 5550 5850 0    60   ~ 0
+RAM_A8_FPGA
+Text Label 5550 5950 0    60   ~ 0
+FPGA_A9_FPGA
+Text Label 5550 6150 0    60   ~ 0
+RAM_CKE_FPGA
+Text Label 5550 6250 0    60   ~ 0
+RAM_A12_FPGA
+Text Label 5550 6550 0    60   ~ 0
+RAM_A11_FPGA
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = 8/3/2014 12:39:20 AM
+Cmp-Mod V01 Created by PcbNew date = 8/3/2014 1:15:53 PM
 
 BeginCmp
 TimeStamp = /53CA826C/53D06F54;
@@ -879,7 +879,7 @@ BeginCmp
 TimeStamp = /53CA826E/53D1BAA5;
 Reference = U4;
 ValeurCmp = IS43R86400D-6TL;
-IdModule  = TSOP66;
+IdModule  = TSOP-66;
 EndCmp
 
 BeginCmp
